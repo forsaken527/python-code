@@ -13,7 +13,7 @@
 ### initialize.sh
 
 + 初始化脚本
-+ 初始化新`uhost`的`peacock`环境
++ 初始化新`uhost`的环境
 
 ### main-workflow.sh
 
@@ -42,15 +42,3 @@
 3. `terminate_uhost_Instance.py`可以单独使用，`sys.argv[1]` 为需要删除的`uhost`的`uhost_id`
 4. `create_uhost_instance.py`可以单独使用
 5. 几个修改的原来的发布系统和批量管理`ansible`的地方：
-
-+ /data/etouch/release/wars/peacock_api/release.sh
-```shell
-    #自动扩容用
-    /usr/bin/svn up --username deploy --password 1qa2ws3ed /data/tmp/peacock < $data/release/yes
-```
-
-+ /data/etouch/abcm/hosts/main_pc_tc.sh
-```shell
-    #自动扩容用
-    rsync -az $binPath/conf/hosts_$host /data/tmp/peacock/hosts
-```

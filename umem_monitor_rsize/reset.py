@@ -22,9 +22,9 @@ redis_pool = redis.ConnectionPool(host=REDIS_HOST,port=REDIS_PORT)
 redis_server = redis.Redis(connection_pool=redis_pool)
 
 
-public_key  = "ucloudzyh@etouch.cn1431675292000176814293"
-private_key = "940029a18e45d14b7eddfc084c0b4fa6109c8c6a"
-project_id = "org-27536"
+public_key  = ""
+private_key = ""
+project_id = ""
 base_url    = "https://api.ucloud.cn"
 
 class UCLOUDException(Exception):

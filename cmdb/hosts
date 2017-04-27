@@ -1,0 +1,209 @@
+[platform]
+10.9.138.61	node1.tc.ulike.dmp.com
+10.9.104.236	node1.rabbitmq.rooster.dmp.com
+10.9.143.34	dn108.hadoop.dmp.dmp.com
+10.9.122.123	dn107.hadoop.dmp.dmp.com
+10.9.89.178	dn104.hadoop.dmp.dmp.com
+10.9.151.46	dn106.hadoop.dmp.dmp.com
+10.9.176.85	dn105.hadoop.dmp.dmp.com
+10.9.111.85	dn109.hadoop.dmp.dmp.com
+10.9.112.189	dn110.hadoop.dmp.dmp.com
+10.9.95.79	dn112.hadoop.dmp.dmp.com
+10.9.125.153	dn111.hadoop.dmp.dmp.com
+10.9.160.225	node1.all.auto_tag.dmp.com
+10.9.90.2	dn103.hadoop.dmp.dmp.com
+10.9.140.46	dn102.hadoop.dmp.dmp.com
+10.9.199.66	dn101.hadoop.dmp.dmp.com
+10.9.157.122	node1.tc.ads_api.dmp.com
+10.9.190.193	node2.tc.ads_api.dmp.com
+10.10.212.92	node2.es.dmp.dmp.com
+10.10.212.99	node3.es.dmp.dmp.com
+10.10.230.92	node1.es.dmp.dmp.com
+10.10.79.27	node1.hue.dmp.dmp.com
+10.10.169.229	node4.storm.dmp.dmp.com
+10.10.125.146	nn2.hadoop.dmp.dmp.com
+10.10.142.93	nn1.hadoop.dmp.dmp.com
+10.10.98.147	node3.storm.dmp.dmp.com
+10.10.108.86	node1.storm.dmp.dmp.com
+10.10.110.206	node2.storm.dmp.dmp.com
+10.10.151.147	node1.tc.dmp_api.dmp.com
+10.10.164.5	node2.tc.dmp_api.dmp.com
+10.10.169.170	door.dmp.com
+10.10.22.251	node2.kafka.dmp.dmp..com
+10.10.52.152	node3.kafka.dmp.dmp.com
+10.10.34.92	node2.zk.dmp.dmp.com
+10.10.48.188	node3.zk.dmp.dmp.com
+10.10.95.71	node1.kafka.dmp.dmp.com
+10.10.95.131	node1.zk.dmp.dmp.com
+10.215.24.102	node1.all.sensors.dmp.com
+10.215.24.103	node2.all.sensors.dmp.com
+10.215.24.104	node3.all.sensors.dmp.com
+10.215.24.105	node4.all.sensors.dmp.com
+10.215.24.106	node5.all.sensors.dmp.com
+[kmzk]
+10.9.139.141	s1.mysql.kmzk.km.com
+10.9.13.7	node4.all.kmzk.km.com
+10.9.45.100	node3.all.kmzk.km.com
+10.9.39.41	node2.all.kmzk.km.com
+10.9.71.184	node1.all.kmzk.km.com
+10.9.23.87	node5.all.kmzk.km.com
+10.9.21.163	node6.all.kmzk.km.com
+[wallet]
+10.9.150.30	node1.tc.wallet_api.rili.com
+[zhwnl]
+10.9.166.140	m2051.mysql.zhwnl.rili.com
+10.9.191.193	m2050.mysql.zhwnl.rili.com
+10.9.164.242	m2053.mysql.zhwnl.rili.com
+10.9.164.87	m2052.mysql.zhwnl.rili.com
+10.9.87.159	m2049.mysql.zhwnl.rili.com
+10.9.103.175	m2048.mysql.zhwnl.rili.com
+10.9.184.69	mall.mysql.zhwnl.rili.com
+10.9.65.11	m2047.mysql.zhwnl.rili.com
+10.9.75.67	m2046.mysql.zhwnl.rili.com
+10.9.43.153	node3.tc.zhwnl_api.rili.com
+10.9.39.157	node2.tc.zhwnl_api.rili.com
+10.9.54.237	m2044.mysql.zhwnl.rili.com
+10.9.48.86	m2041.mysql.zhwnl.rili.com
+10.9.53.204	m2040.mysql.zhwnl.rili.com
+10.9.42.212	m2042.mysql.zhwnl.rili.com
+10.9.49.131	m2043.mysql.zhwnl.rili.com
+10.9.40.159	m2045.mysql.zhwnl.rili.com
+10.9.41.247	m2033.mysql.zhwnl.rili.com
+10.9.58.57	m2031.mysql.zhwnl.rili.com
+10.9.59.205	m2032.mysql.zhwnl.rili.com
+10.9.63.201	m2030.mysql.zhwnl.rili.com
+10.9.61.85	m2035.mysql.zhwnl.rili.com
+10.9.49.171	m2034.mysql.zhwnl.rili.com
+10.9.62.45	m2036.mysql.zhwnl.rili.com
+10.9.53.84	m2039.mysql.zhwnl.rili.com
+10.9.37.233	m2038.mysql.zhwnl.rili.com
+10.9.63.28	m2037.mysql.zhwnl.rili.com
+10.9.62.218	m2022.mysql.zhwnl.rili.com
+10.9.55.238	m2020.mysql.zhwnl.rili.com
+10.9.40.84	m2021.mysql.zhwnl.rili.com
+10.9.60.36	m2023.mysql.zhwnl.rili.com
+10.9.42.80	m2025.mysql.zhwnl.rili.com
+10.9.47.114	m2027.mysql.zhwnl.rili.com
+10.9.62.136	m2026.mysql.zhwnl.rili.com
+10.9.53.67	m2029.mysql.zhwnl.rili.com
+10.9.59.214	m2024.mysql.zhwnl.rili.com
+10.9.54.169	m2028.mysql.zhwnl.rili.com
+10.9.38.93	m2013.mysql.zhwnl.rili.com
+10.9.64.183	m2012.mysql.zhwnl.rili.com
+10.9.64.101	m2016.mysql.zhwnl.rili.com
+10.9.47.179	m2015.mysql.zhwnl.rili.com
+10.9.42.252	m2017.mysql.zhwnl.rili.com
+10.9.60.47	m2014.mysql.zhwnl.rili.com
+10.9.34.118	m2018.mysql.zhwnl.rili.com
+10.9.35.77	m2019.mysql.zhwnl.rili.com
+10.9.59.90	m2010.mysql.zhwnl.rili.com
+10.9.57.116	m2007.mysql.zhwnl.rili.com
+10.9.47.70	m2009.mysql.zhwnl.rili.com
+10.9.37.45	m2008.mysql.zhwnl.rili.com
+10.9.39.84	m2011.mysql.zhwnl.rili.com
+10.9.55.160	m2006.mysql.zhwnl.rili.com
+10.9.37.100	m2005.mysql.zhwnl.rili.com
+10.9.36.205	m2000.mysql.zhwnl.rili.com
+10.9.39.220	m2003.mysql.zhwnl.rili.com
+10.9.43.175	m2004.mysql.zhwnl.rili.com
+10.9.63.107	m2002.mysql.zhwnl.rili.com
+10.9.53.103	m2001.mysql.zhwnl.rili.com
+10.9.36.64	m1004.mysql.zhwnl.rili.com
+10.9.43.97	m1002.mysql.zhwnl.rili.com
+10.9.45.65	m1003.mysql.zhwnl.rili.com
+10.9.36.131	m1001.mysql.zhwnl.rili.com
+10.9.44.140	m1000.mysql.zhwnl.rili.com
+10.9.63.99	muserstore.mysql.zhwnl.rili.com
+10.9.53.76	node1.tc.zhwnl_web.rili.com
+10.9.44.221	node1.tc.zhwnl_api.rili.com
+10.10.77.219	node1.tc.crawl.rili.com
+[enhancement]
+10.9.176.33	node1.enhancement.zhwnl.rili.cn
+[ops]
+10.9.122.62	test1.freed.so
+10.9.108.228	storage1.freed.so
+10.10.37.192	node3.flume.log.freed.so
+10.10.59.103	node2.flume.log.freed.so
+10.10.30.155	node1.flume.log.freed.so
+10.10.10.69	node4.flume.log.freed.so
+10.9.10.94	emos.freed.so
+10.10.226.253	lamp.freed.so
+10.10.151.236	openvpn-access.freed.so
+10.10.199.5	door.freed.so
+10.10.6.137	open-falcon.freed.so
+[reminder]
+10.9.18.228	node1.tc.reminder_api.rili.com
+10.9.21.140	node2.tc.reminder_api.rili.com
+[pre]
+10.10.83.126	node1.tc.pre.freed.so
+10.10.32.245	node0.tc.pre.freed.so
+[tc.zhwnl_api]
+10.9.43.153	node3.tc.zhwnl_api.rili.com
+10.9.39.157	node2.tc.zhwnl_api.rili.com
+10.9.44.221	node1.tc.zhwnl_api.rili.com
+[tc.zhwnl_web]
+10.9.53.76	node1.tc.zhwnl_web.rili.com
+[yangmi]
+10.9.21.181	node1.tc.yangmi_migou.rili.com
+10.9.31.4	node1.tc.yangmi-ark-appreciation.rili.com
+10.9.26.227	node1.tc.yangmi-ark-product.rili.com
+10.9.17.86	node1.tc.yangmi-ark-trade.rili.com
+10.9.19.115	m1.mysql.yangmi.rili.com
+[pay]
+10.9.31.133	node1.tc.pay_api.rili.com
+10.9.29.45	m1.mysql.pay.rili.com
+[lizhi]
+10.9.18.194	node3.tc.lizhi_api.rili.com
+10.9.28.80	node4.tc.lizhi_api.rili.com
+10.9.24.71	node1.tc.lizhi_admin-bg.rili.com
+10.9.18.234	node2.tc.lizhi_api.rili.com
+10.9.65.177	m1.mysql.lizhi.rili.com
+10.9.67.27	node1.tc.lizhi_api.rili.com
+[meili]
+10.9.21.89	node1.tc.meili_admin-bg.rili.com
+10.9.28.234	node2.tc.meili_api.rili.com
+10.9.71.53	m1.mysql.meili.rili.com
+10.9.74.75	m4.redis.meili.rili.com
+10.9.71.153	m3.redis.meili.rili.com
+10.9.77.245	m2.redis.meili.rili.com
+10.9.70.144	m1.redis.meili.rili.com
+10.9.72.125	node1.tc.meili_api.rili.com
+[payment]
+10.9.7.204	node2.tc.payment_api.rili.com
+10.9.72.67	m1.mysql.payment.rili.com
+10.9.71.215	m1.redis.payment.rili.com
+10.9.71.6	node1.tc.payment_api.rili.com
+[nodejs]
+10.9.36.24	node1.nodejs.zhwnl.rili.com
+[eservice-cas]
+10.9.20.252	m1.mysql.eservice.dmp.com
+10.9.23.171	node1.tc.eservice_api.dmp.com
+[shihui]
+10.10.117.156	node1.all.sh.rili.com
+[marketing-weather]
+10.10.162.42	node2.tc.mw.rili.com
+10.10.156.163	node1.tc.mw.rili.com
+10.10.197.151	m0.mysql.mw.rili.com
+[peacock]
+10.10.93.202	s2.mysql.peacock.rili.com
+10.10.95.186	s1.mysql.peacock.rili.com
+10.10.195.194	node7.tc.peacock_api.rili.com
+10.10.158.86	node6.tc.peacock_api.rili.com
+10.10.166.99	node5.tc.peacock_api.rili.com
+10.10.164.108	node4.tc.peacock_api.rili.com
+10.10.145.95	node2.tc.peacock_api.rili.com
+10.10.198.136	node2.tc.peacock_bg.rili.com
+10.10.168.157	node1.tc.peacock_bg.rili.com
+10.10.194.51	node1.tc.peacock_api.rili.com
+10.10.175.130	node3.tc.peacock_api.rili.com
+10.10.150.193	m2.mysql.peacock.rili.com
+10.10.199.87	m1.mysql.peacock.rili.com
+10.10.131.228	node1.tc.peacock_admin.rili.com
+[tc.peacock_api]
+10.10.195.194	node7.tc.peacock_api.rili.com
+10.10.158.86	node6.tc.peacock_api.rili.com
+10.10.166.99	node5.tc.peacock_api.rili.com
+10.10.164.108	node4.tc.peacock_api.rili.com
+10.10.145.95	node2.tc.peacock_api.rili.com
+10.10.194.51	node1.tc.peacock_api.rili.com
+10.10.175.130	node3.tc.peacock_api.rili.com

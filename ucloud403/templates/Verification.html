@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="utf-8">
+
+<head>
+    <meta charset="UTF-8">
+    <title>verification</title>
+    <style>
+        .input {
+            display: block;
+            padding: 6px 12px;
+            font-size: 14px;
+            font-weight: 400;
+            line-height: 1.42857143;
+            text-align: center;
+            white-space: nowrap;
+            vertical-align: middle;
+            -ms-touch-action: manipulation;
+            touch-action: manipulation;
+            cursor: pointer;
+            -webkit-user-select: none;
+            -moz-user-select: none;
+            -ms-user-select: none;
+            user-select: none;
+            background-image: none;
+            border: 1px solid transparent;
+            border-radius: 4px;
+            width: 300px;
+            border: 1px solid #e5e6e7;
+            width: 274px;
+            color: #888;
+            margin: auto;
+            margin-top: 10px;
+        }
+
+        .btn {
+            background-color: #1ab394;
+            color: #fff;
+            width: 300px;
+        }
+    </style>
+</head>
+
+<body>
+    <div style="width: 400px;margin: auto;color: #999;">
+        <p>{{ current_message }}</p>
+        <p style="padding-top: 20px;">您所在网络的出口ip地址为:<span style="color: #333;">{{ address }}</span></p>
+        <p>
+            当前验证账号为：<span style="color: #333;">{{ current_phone }}</span>
+        </p>
+        <p>
+            验证码有效时间为：<span style="color: #333;">{{ current_timeout }}</span>
+        </p>
+    </div>
+    <input class="input" type="text" name="phone_number" value="{{ current_phone }}" style="margin-top: 30px;">
+    <input class="input" type="text" name="auth_code" value="" id="code">
+    <input class="btn input" id="submit" type="submit" value="submit">
+    {% load static %}
+    <script type="text/javascript" src="/static/jquery.min.js"></script>
+    <script>
+        $('#submit').on('click', function() {
+            var codeVal = $('#code').val();
+            $.ajax({
+                type: 'GET',
+                url: "/verification_code/",
+                data: {
+                    "auth_code": codeVal,
+                    "phone_number": {{ current_phone }}
+                },
+                success: function(data) {
+
+                    if (data == 'Reject') {
+                        alert("验证码错误，请重新输入!")
+                    }
+                    if (data == 'Welcome') {
+                        alert("验证成功，{{ address }}已经加入白名单，您现在可以访问后台页面!")
+                    }
+                    if (data == 'Input_Empty') {
+                        alert("验证码为空，请重新输入!")
+                    }
+                    if (data == 'Overdue') {
+                        alert("验证码过期，返回前一页重新获取验证码！")
+                    }
+                    if (data == "GET_Empty") {
+                        alert("验证码为空，请重新输入!")
+                    }
+                },
+            });
+        });
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="utf-8">
+
+<head>
+    <meta charset="UTF-8">
+    <title>后台登陆白名单授权</title>
+    <style>
+        .input {
+            display: block;
+            padding: 6px 12px;
+            font-size: 14px;
+            font-weight: 400;
+            line-height: 1.42857143;
+            text-align: center;
+            white-space: nowrap;
+            vertical-align: middle;
+            -ms-touch-action: manipulation;
+            touch-action: manipulation;
+            cursor: pointer;
+            -webkit-user-select: none;
+            -moz-user-select: none;
+            -ms-user-select: none;
+            user-select: none;
+            background-image: none;
+            border: 1px solid transparent;
+            border-radius: 4px;
+            width: 300px;
+            margin: auto;
+        }
+
+        .phone_number {
+            border: 1px solid #e5e6e7;
+            width: 274px;
+            color: #888;
+        }
+
+        .submit {
+            margin-top: 20px;
+            background-color: #1ab394;
+            color: #fff;
+        }
+    </style>
+</head>
+
+<body style="text-align: center;">
+    <img style="margin-top: 20px;" width="400px" src="https://ss0.bdstatic.com/5aV1bjqh_Q23odCf/static/superman/img/logo/bd_logo1_31bdc765.png">
+    <h2 style="text-align:center"> 随身云后台登陆授权</h2>
+    <form action="/login/" method="GET" style="text-align: center;padding-top: 20px;">
+        <input class="input phone_number" type="text" name="phone_number" value="Phone Number">
+        <input class="input submit" type="submit" value="提交">
+    </form>
+</body>
+
+</html>
